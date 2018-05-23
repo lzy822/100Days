@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         public void onFinish() {
             timeShow.setVisibility(View.GONE);
             timeBt.setClickable(true);
-            current1 = 6;
+            current1 = 12;
             timeBt.setText(Integer.toString(current1));
         }
     };
